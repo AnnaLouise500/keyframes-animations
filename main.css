@@ -1,3 +1,27 @@
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: yellow;
+    margin: 0 auto;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes bounce {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 300px;
+    }
+}
+/*
 .box {
     background-color: black;
     width: 150px;
@@ -19,3 +43,4 @@
         height: 150px;
     }
 }
+*/
